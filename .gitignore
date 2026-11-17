@@ -1,0 +1,42 @@
+# Environment secrets
+.env
+.env.local
+*.env
+
+# SQLite Databases and WAL files
+*.db
+*.db-shm
+*.db-wal
+creatorflow.db
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Archives
+*.zip
+
+
